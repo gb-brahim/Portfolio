@@ -67,7 +67,7 @@ function SendEmail(e){
     const email=document.querySelector('.mail')
     const msg=document.querySelector('.msg')
     Email.send({
-    SecureToken : "9a3387fd-4427-45e7-8b8e-cb08771a77d1",
+    SecureToken : "92313882-72bc-431f-ba57-c4c0104fc014",
     To : 'brahimdev1995@gmail.com',
     From :email.value,
     Subject : "Contact me",
