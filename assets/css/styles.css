@@ -240,6 +240,7 @@ img {
 
 /*BUTTONS*/
 .button {
+ 
   display: inline-block;
   background-color: var(--first-color);
   color: #fff;
@@ -247,6 +248,11 @@ img {
   font-weight: var(--font-semi);
   border-radius: .5rem;
   transition: .3s;
+  cursor: pointer;
+  text-transform: uppercase;
+  text-align: center;
+  padding-left: 6rem;
+  padding-right: 6rem;
 }
 
 .button:hover {
