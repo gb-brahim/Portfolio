@@ -192,10 +192,12 @@ img {
   position: relative;
   row-gap: 5rem;
   padding: 4rem 0 5rem;
+  text-align: center;
 }
 
 .home__data {
   align-self: center;
+  margin-bottom: 1rem;
 }
 
 .home__title {
@@ -251,8 +253,7 @@ img {
   cursor: pointer;
   text-transform: uppercase;
   text-align: center;
-  padding-left: 6rem;
-  padding-right: 6rem;
+  margin: 0 auto;
 }
 
 .button:hover {
@@ -382,7 +383,7 @@ img {
   outline: none;
   font-size: var(--normal-font-size);
   cursor: pointer;
-  margin-left: auto;
+  margin: 0 auto;
 }
 
 /* ===== FOOTER =====*/
@@ -427,6 +428,7 @@ img {
 @media screen and (min-width: 576px) {
   .home {
     padding: 4rem 0 2rem;
+    text-align:unset;
   }
   .home__social {
     padding-top: 0;
