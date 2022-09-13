@@ -210,14 +210,14 @@ img {
 }
 
 .home__social {
-  display: flex;
-  flex-direction: column;
+ display: block;
 }
+
 
 .home__social-icon {
   width: max-content;
   margin-bottom: var(--mb-2);
-  font-size: 1.5rem;
+  font-size: 3rem;
   color: var(--second-color);
 }
 
@@ -226,9 +226,7 @@ img {
 }
 
 .home__img {
-  position: absolute;
-  right: 0;
-  bottom: 0;
+  margin: auto;
   width: 260px;
 }
 
@@ -437,6 +435,8 @@ img {
     flex-direction: row;
     align-self: flex-end;
   }
+
+  
   .home__social-icon {
     margin-bottom: 0;
     margin-right: var(--mb-4);
