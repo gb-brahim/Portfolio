@@ -238,6 +238,7 @@ img {
 
 .home__blob-img {
   width: 100%;
+  border-radius: 50px;
 }
 
 /*BUTTONS*/
